@@ -24,8 +24,6 @@ while True:
         if timing[i] == CurrentDate:
             toast.show_toast("Notification",work[i],duration=20,icon_path="countdown_icon_161455.ico")
         else:
-            print(CurrentDate)
-            print(timing[i])
             continue
 
 
