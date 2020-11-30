@@ -24,6 +24,6 @@ while True:
     for i in range(len(timing)):
         if timing[i] == CurrentDate:
             toast.show_toast("Notification",work[i],duration=20,icon_path="countdown_icon_161455.ico")
-    time.sleep(40)
+    time.sleep(10)
 
 
